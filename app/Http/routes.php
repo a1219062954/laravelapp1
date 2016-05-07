@@ -22,7 +22,6 @@ Route::get('/hello', function()
 {
   return "hi user!";
 });
-apc_add(key);
 /*
 |--------------------------------------------------------------------------
 | Application Routes
